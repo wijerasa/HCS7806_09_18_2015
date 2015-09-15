@@ -15,5 +15,6 @@
 2. *Introduction to Terminal*
 3. *Doing down stream analysis in terminal*
 
-####Content
+Content
+-------
 
