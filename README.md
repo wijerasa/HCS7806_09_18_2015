@@ -11,6 +11,6 @@
 
 #### *Today*,
 
-1. Introduction to iPlant Atmosphere
-2. Introduction to Terminal
+1. *Introduction to iPlant Atmosphere*
+2. *Introduction to Terminal*
 3. 
