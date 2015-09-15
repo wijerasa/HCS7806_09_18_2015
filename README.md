@@ -2,7 +2,7 @@
 
 So far,
 
-1. Overview of Next Generation Sequencing
+1. *Overview of Next Generation Sequencing*
 2. Setting an iPlant account
 3. Uploading data to iPlant
 4. Intrdouction to iPlant Discovery Environment
