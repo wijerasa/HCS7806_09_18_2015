@@ -8,3 +8,9 @@
 4. *Intrdouction to iPlant Discovery Environment*
 5. *QC and cleaning sequence data*
 6. *Mapping of reads to the genome* 
+
+#### *Today*
+
+7. Introduction to iPlant Atmosphere
+8. Introduction to Terminal
+9. 
