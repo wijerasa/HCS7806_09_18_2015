@@ -9,7 +9,7 @@
 5. *QC and cleaning sequence data*
 6. *Mapping of reads to the genome* 
 
-#### *Today*
+#### *Today*,
 
 1. Introduction to iPlant Atmosphere
 2. Introduction to Terminal
