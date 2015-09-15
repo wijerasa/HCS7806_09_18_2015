@@ -1,2 +1,2 @@
-# HCS7806_09_18_2015
+# Process of Analyzing the eQTL Data
 Class Notes
