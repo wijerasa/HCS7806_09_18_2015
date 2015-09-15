@@ -1,6 +1,6 @@
 # [Process of Analyzing  eQTL Data](https://github.com/wijerasa/HCS7806_09_18_2015.git)
 
-*So far*,
+**So far**,
 
 1. *Overview of Next Generation Sequencing*
 2. *Setting an iPlant account*
