@@ -13,7 +13,7 @@
 
 1. *Introduction to iPlant Atmosphere*
 2. *Introduction to Terminal*
-3. *Doing down stream analysis in terminal*
+3. *Doing down stream analysis in the Terminal*
 
 Contents
 -------
