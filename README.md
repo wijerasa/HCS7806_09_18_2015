@@ -23,4 +23,5 @@ Contents
   - [Logging In to and Signing Out of Atmosphere](https://pods.iplantcollaborative.org/wiki/display/atmman/Logging+In+to+and+Signing+Out+of+Atmosphere)
   - [Using Instances](https://pods.iplantcollaborative.org/wiki/display/atmman/Using+Instances)
     - [Launching a New Instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Launching+a+New+Instance)
+    - [Logging in to an instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Logging+In+to+an+Instance)
 
