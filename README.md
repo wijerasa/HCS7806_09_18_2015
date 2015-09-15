@@ -21,4 +21,6 @@ Contents
   - [What is iPlant Atmosphere ?](https://pods.iplantcollaborative.org/wiki/display/atmman/About+Atmosphere#AboutAtmosphere-OLDUICONTENT) 
   - [Requesting Access to Atmosphere](https://pods.iplantcollaborative.org/wiki/display/atmman/Requesting+Access+to+Atmosphere)
   - [Logging In to and Signing Out of Atmosphere](https://pods.iplantcollaborative.org/wiki/display/atmman/Logging+In+to+and+Signing+Out+of+Atmosphere)
+  - [Using Instances](https://pods.iplantcollaborative.org/wiki/display/atmman/Using+Instances)
+    -[Launching a New Instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Launching+a+New+Instance)
 
