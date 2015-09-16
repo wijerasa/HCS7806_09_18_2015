@@ -26,5 +26,5 @@ Contents
     - [Logging in to an Instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Logging+In+to+an+Instance)
     - [Rebooting](https://pods.iplantcollaborative.org/wiki/display/atmman/Rebooting+an+Instance), [Stopping and restarting an instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Stopping+and+Starting+an+Instance), and [Suspending an instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Suspending+and+Resuming+an+Instance)
 
-* [**Introduction to Terminal**]
+* [**Introduction to Terminal**](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Introduction%20to%20Terminal.ipynb)
 
