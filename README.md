@@ -26,7 +26,7 @@ Contents
     - [Logging in to an Instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Logging+In+to+an+Instance)
     - [Rebooting](https://pods.iplantcollaborative.org/wiki/display/atmman/Rebooting+an+Instance), [Stopping and restarting an instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Stopping+and+Starting+an+Instance), and [Suspending an instance](https://pods.iplantcollaborative.org/wiki/display/atmman/Suspending+and+Resuming+an+Instance)
 
-* [**Introduction to Terminal**](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Introduction%20to%20Terminal.ipynb): Here you will learn basic terminal command, how to transfer your data to cloud service and install software in Linux
+* [**Introduction to Terminal**](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Introduction%20to%20Terminal.ipynb): Here you will learn basic terminal commands, how to transfer your data to cloud service and install software in Linux
   - [Data Transfer](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Transfer_Data.ipynb)
   - [File Handling](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/File_Handling.ipynb)
   - [Install Software](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Install_Software.ipynb)
