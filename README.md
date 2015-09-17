@@ -31,3 +31,4 @@ Contents
   - [File Handling](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/File_Handling.ipynb)
   - [Install Software](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Install_Software.ipynb)
 
+* [**Doing down stream analysis in the Terminal**]
