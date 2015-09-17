@@ -1,4 +1,4 @@
-# [Process of Analyzing  eQTL Data](https://github.com/wijerasa/HCS7806_09_18_2015.git)
+# [Process of Analyzing  eQTL Data](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Class%20Notes.ipynb)
 
 #### *So far*,
 
