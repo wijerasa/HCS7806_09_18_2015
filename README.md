@@ -29,5 +29,5 @@ Contents
 * [**Introduction to Terminal**](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Introduction%20to%20Terminal.ipynb)
   - [Data Transfer](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Transfer_Data.ipynb)
   - [File Handling](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/File_Handling.ipynb)
-  - [Install Software]()
+  - [Install Software](http://nbviewer.ipython.org/github/wijerasa/HCS7806_09_18_2015/blob/master/Install_Software.ipynb)
 
