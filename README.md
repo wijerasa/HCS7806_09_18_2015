@@ -8,6 +8,7 @@
 4. *Intrdouction to iPlant Discovery Environment*
 5. *QC and cleaning sequence data*
 6. *Mapping of reads to the genome* 
+7.  *Assembling transcripts and estimates their abundances*
 
 #### *Today*,
 
