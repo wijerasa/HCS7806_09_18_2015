@@ -46,7 +46,7 @@ Ways to Install Software
             500 http://us.archive.ubuntu.com/ubuntu/ trusty/universe amd64 Packages
 
 
-.. warning:: Not all the Linux distributions have fastqc in their repos. If you see *Unable to locate package* warning you have to use following method to install your software. 
+.. warning:: Not all the Linux distributions have fastqc in their repos. If you see *Unable to locate package* warning you have to use other methods described in this class to install your software. 
 
 
 
