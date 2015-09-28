@@ -32,7 +32,6 @@ Process of Analyzing  eQTL Data
 3. *Doing down stream analysis in the Terminal*
 
 
-Contents:
 
 .. toctree::
    :maxdepth: 3
