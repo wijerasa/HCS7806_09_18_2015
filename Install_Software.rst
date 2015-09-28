@@ -59,7 +59,6 @@ Ways to Install Software
 
 If you see *Unable to locate package* massage,
 
-.. todo::
 
 .. code-block:: bash
   
