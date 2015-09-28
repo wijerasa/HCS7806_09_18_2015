@@ -22,22 +22,31 @@ Software we need
 -  `Tophat2 <>`__
 
 1. Install Software From Your Distribution’s Repositories
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------
 
-Search:
-~~~~~~~
+*First Search:*
 
-\*\* *sudo apt-cache policy [software\_name]* \*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. code:: python
+*sudo apt-cache policy [software\_name]*
 
-    sudo apt-cache policy fastqc
+.. code-block:: bash
 
-image
+   $ sudo apt-cache policy fastqc
+    [sudo] password for swijeratne:
+    fastqc:
+      Installed: (none)
+      Candidate: 0.10.1+dfsg-2
+      Version table:
+         0.10.1+dfsg-2 0
+            500 http://us.archive.ubuntu.com/ubuntu/ trusty/universe amd64 Packages
 
-Install:
-~~~~~~~~
+
+    
+
+
+
+*Then Install:*
+
 
 .. code:: python
 
