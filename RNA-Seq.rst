@@ -6,13 +6,13 @@ Quality Control
 ---------------
 
 *Quaulity Check With Fastqc*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 To get help,
 
-.. code:: python
+.. code-block:: bash
 
-    fastqc --help
+    $ fastqc --help
 
 
 .. parsed-literal::
