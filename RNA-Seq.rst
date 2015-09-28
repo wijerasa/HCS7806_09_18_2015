@@ -6,7 +6,7 @@ Quality Control
 ---------------
 
 *Quaulity Check With Fastqc*
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To get help,
 
@@ -133,30 +133,28 @@ To get help,
                        
         
 
-.. code:: python
+.. code-block:: bash
 
-    cd RNA-Seq/QC/Fastqc_Out
+    $ cd RNA-Seq/QC/Fastqc_Out
 
-Code For Few Samples
-~~~~~~~~~~~~~~~~~~~~
+**Code For Few Samples**
 
-.. code:: python
 
-    fastqc -t 4  --outdir  ~/RNA-Seq/QC/Fastqc_Out RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L002_R1_001-2.fastq.gz \ 
-                 RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L004_R1_001-2.fastq.gz
+.. code-block:: bash
 
-Code For Many Samples
-~~~~~~~~~~~~~~~~~~~~~
+    $ fastqc -t 4  --outdir  ~/RNA-Seq/QC/Fastqc_Out RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L002_R1_001-2.fastq.gz RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L004_R1_001-2.fastq.gz
 
-If your raw data path names end with \_ *.fastq\_ change the \_
-*.fastq.gz \_ to *.fastq* in the following code.
+**Code For Many Samples**
 
-.. code:: python
 
-    for f in ~/RNA-Seq/RAW_Data/*.fastq.gz; do fastqc --outdir  ~/RNA-Seq/QC/Fastqc_Out -t 4 $f  ; done 
+.. Note:: If your raw data path names end with *.fastq change the *.fastq.gz to *.fastq* in the following code.
+
+.. code-block:: bash
+
+    $ for f in ~/RNA-Seq/RAW_Data/*.fastq.gz; do fastqc --outdir  ~/RNA-Seq/QC/Fastqc_Out -t 4 $f  ; done 
 
 *Explanation*
-~~~~~~~~~~~~~
+
 
 .. code:: bash
 
