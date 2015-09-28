@@ -69,7 +69,6 @@ When you first login, you are logged into your home directory
 To find out what is your current working directory, type
 
 .. code-block:: python
-   :linenos:
    print("hello")
 
 
