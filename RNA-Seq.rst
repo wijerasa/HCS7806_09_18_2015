@@ -1,5 +1,5 @@
 
-Data Analysis in Terminal
+Data Analysis in the Terminal
 =========================
 
 Quality Control

@@ -2,7 +2,7 @@
 How to Install Software on Linux
 ================================
 
-1. Install Software From Your Distribution’s Repositories
+1. :ref:`Install Software From Your Distribution’s Repositories <dist_reop>`_
 2. Downloading and Unpacking a Binary Archive
 3. Compileing From Source
 
@@ -21,8 +21,10 @@ Software we need
 
 -  `Tophat2 <https://ccb.jhu.edu/software/tophat/index.shtml>`_
 
-Ways ti Install Software
+Ways to Install Software
 -------------------------
+
+.. _dist_reop:
 
 1. Install Software From Your Distribution’s Repositories
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -158,7 +160,7 @@ Do the same for the scythe,
 
     $ ls -ls 
 
-Now, add both binaries to *PATH* so you can access them anywhere,
+Now, add both binaries to *PATH*, so you can access them anywhere,
 
 .. code-block:: bash
 
