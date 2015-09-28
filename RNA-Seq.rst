@@ -171,7 +171,7 @@ Then,
 
 
 
-will execute fastqc on each file in the /home/yourusername/RNA-Seq/RAW\_Data until there is no more .fastq.gz files left in that directory.
+.. Note:: will execute fastqc on each file in the /home/yourusername/RNA-Seq/RAW\_Data until there is no more .fastq.gz files left in that directory.
 
 .. code-block:: bash
 
@@ -258,7 +258,7 @@ to go back to your \* HOME \*.
 
     $ for f in RNA-Seq/RAW_Data/*.fastq; do scythe -a RNA-Seq/Adaptors/TruSeq_adapters.fasta -o RNA-Seq/QC/Adapter_Removed/Adapt_rem_${f##*/}   $f  ; done
 
-*Quality Trimming with sickle *
+*Quality Trimming with sickle*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
@@ -299,7 +299,7 @@ to go back to your \* HOME \*.
 
     $ for f in RNA-Seq/QC/Adapter_Removed/*.fastq; sickle se -q 20  -t sanger  -f $f -o RNA-Seq/QC/Trimmed/Q_trimmed_${f##*/} ; done
 
-*Short read aligning with Tophat2 *
+*Short read aligning with Tophat2*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Make bowtie2 indexes for your Genome
@@ -341,6 +341,6 @@ to go back to your \* HOME \*.
     $for f in RNA-Seq/QC/Trimmed/*.fastq; do tmp_file="${f##*/}", tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/${tmp_file%.fastq*} RNA-Seq/Reference/Genome/Gmax_275_v2.0  $f; done
 
 Excercise
-=========
+~~~~~~~~~~~
 
 1. Run Cufflinks2 on alignment file(SAM)
