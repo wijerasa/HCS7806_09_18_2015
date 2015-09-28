@@ -81,6 +81,7 @@ To make a subdirectory called *Software* in your home directory, type
 
 .. code-block:: bash
    :lineos:
+   
    $ mkdir Software
 
 
