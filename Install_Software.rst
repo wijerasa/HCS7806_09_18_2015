@@ -2,7 +2,7 @@
 How to Install Software on Linux
 ================================
 
-1. :ref:`Install Software From Your Distribution’s Repositories <dist_reop>`_
+1. :ref:`Install Software From Your Distribution’s Repositories <dist_reop>`
 2. Downloading and Unpacking a Binary Archive
 3. Compileing From Source
 
