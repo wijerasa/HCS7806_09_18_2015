@@ -57,6 +57,19 @@ Ways to Install Software
 
     $ sudo apt-get install fastqc
 
+If you see *Unable to locate package* massage,
+
+.. todo::
+
+   .. code-block:: bash
+      
+      $ cd  ~/RNA-Seq/Software/FastQC  (Assuming your files inside RNA-Seq/SoftwareFastQC)
+
+      $ chmod a+x ./fastqc (make fastqc executable)
+
+      $ sudo ln -s  ~/RNA-Seq/Software/FastQC/fastqc  /usr/local/bin/fastqc (make a link to /usr/local/bin)
+
+
 
 .. _downloading_b:
 
