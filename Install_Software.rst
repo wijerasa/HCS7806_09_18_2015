@@ -3,8 +3,8 @@ How to Install Software on Linux
 ================================
 
 1. :ref:`Install Software From Your Distribution’s Repositories <dist_reop>`
-2. Downloading and Unpacking a Binary Archive
-3. Compileing From Source
+2. :ref:`Downloading and Unpacking a Binary Archive <downloading_b>`
+3. :ref:`Compileing From Source <compiling_s>`
 
 Software we need
 ----------------
@@ -57,6 +57,9 @@ Ways to Install Software
 
     $ sudo apt-get install fastqc
 
+
+.. _downloading_b:
+
 2. Downloading and Unpacking a Binary Archive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -87,6 +90,8 @@ To execute tophat2,
 .. code-block:: bash
 
     $ ./tophat2
+
+.. _compiling_s:
 
 3. Compileing From Source
 ~~~~~~~~~~~~~~~~~~~~~~~~~
