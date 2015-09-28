@@ -147,60 +147,94 @@ File Handling Through the Terminal
 Displaying Content of a Compressed gunzip File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\*\* *zcat [filename.gz]* \*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*zcat [filename.gz]*
+
+.. code-block:: bash
+   
+   $ zcat sequence.fastq.gz | less
 
 
 
 De-compressing gunzip File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\*\* *gzip -d [filename.gz]* \*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*gzip -d [filename.gz]* 
+
+.. code-block:: bash
+   
+   $ gzip -d sequence.fastq.gz
+
 
 
 
 Displaying Content of a File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. cat -display whole content of a file on the screen
-2. less -display contents of a file onto the screen a page at a time
-3. head -display first ten lines of a file to the screen
-4. tail -display last ten lines of a file to the screen
+:cat: display whole content of a file on the screen
+:less: display contents of a file onto the screen a page at a time
+:head: display first ten lines of a file to the screen
+:tail: display last ten lines of a file to the screen
 
-\*\* *cat [filename]* \*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+*cat [filename]* 
+^^^^^^^^^^^^^^^^^
 
-
-
-\*\* *less [filename]* \*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-
-\*\* *head [filename]* \*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. code-block:: bash
+   
+   $ cat sequence.fastq | less
 
 
 
-\*\* *tail [filename]* \*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+*less [filename]*
+^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: bash
+   
+   $ less sequence.fastq
+
+
+
+*head [filename]*
+^^^^^^^^^^^^^^^^^^
+
+.. code-block:: bash
+   
+   $ head sequence.fastq
+
+
+
+*tail [filename]*
+^^^^^^^^^^^^^^^^^
+
+.. code-block:: bash
+   
+   $ tail sequence.fastq
 
 
 
 Renaming a File
 ~~~~~~~~~~~~~~~
 
-\*\* \_ mv [orginalfile.txt] [newnamefile.txt]\_ \*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* mv [orginalfile.txt] [newnamefile.txt] *
+
+.. code-block:: bash
+   
+   $ mv sequence.fastq new_sequence.fastq
+
 
 
 
 Searching the Contents of a File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\*\* \_ grep [options] [word\_to\_find] [filename] \_\*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* grep [options] [word\_to\_find] [filename] *
+
+.. code-block:: bash
+   
+   $ grep "@" sequence.fastq
+     @D00109:408:C77LEANXX:2:1101:1715:1962 1:N:0:18
+
+
 
 
 
