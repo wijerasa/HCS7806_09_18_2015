@@ -19,7 +19,7 @@ Software we need
 *Alignment Software*
 ~~~~~~~~~~~~~~~~~~~~
 
--  `Tophat2 <>`__
+-  `Tophat2 <https://ccb.jhu.edu/software/tophat/index.shtml>`_
 
 1. Install Software From Your Distribution’s Repositories
 ----------------------------------------------------------
@@ -41,7 +41,7 @@ Software we need
             500 http://us.archive.ubuntu.com/ubuntu/ trusty/universe amd64 Packages
 
 
-    
+.. warning:: Not all the Linux distributions have fastqc in their repos. If you see *Unable to locate package* warning you have to use following method to install your software. 
 
 
 
