@@ -134,7 +134,9 @@ Use the Terminal commands we already learned to do the following steps.
 
    *RNA-Seq/Alignment/Tophat2*
 
-**Hint: You might have to use "-p" option to create non-exsisting
+.. Note:: You might have to use "-p" option to create non-exsisting
 intermediate directories**
 
 **Final output:**
+
+.. image:: images/TR1.png
