@@ -64,7 +64,7 @@ Contents:
    :caption: Class Notes
 
    Introduction_to_Terminal
-   Install_software
+   Install_Software
    RNA-Seq
    
 
