@@ -85,21 +85,24 @@ To make a subdirectory called *Software* in your home directory, type
 
 
 
-\*\* *ls (list)* \*\*
+*ls (list)* 
 ~~~~~~~~~~~~~~~~~~~~~
 
 To see what is inside the home directory, type
 
-*:~$ ls *
+.. code-block:: bash
+   
+   $ ls
 
 
 
-\*\* *cd (change directory)* \*\*
+*cd (change directory)* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To change the current directory to the "Software", type
 
-*:~$ cd Software *
+.. code-block:: bash
+   $ cd Software 
 
 
 
