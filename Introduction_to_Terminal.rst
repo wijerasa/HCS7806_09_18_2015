@@ -263,4 +263,5 @@ Excercise
 ~~~~~~~~~~
 
 1. Count the number of sequnces in a fastq.gz file
+
 .. Note:: Use zcat and pip ("\|") the output to **grep -c** [word\_to\_grep]
