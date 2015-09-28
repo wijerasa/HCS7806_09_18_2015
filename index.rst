@@ -10,8 +10,6 @@
 
 .. highlight:: rest
 
-.. figure:: Logo.png
-   :align: right
 
 
 Process of Analyzing  eQTL Data
