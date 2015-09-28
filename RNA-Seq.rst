@@ -347,6 +347,6 @@ Short-reads Alignment with Tophat2
     $for f in RNA-Seq/QC/Trimmed/*.fastq; do tmp_file="${f##*/}", tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/${tmp_file%.fastq*} RNA-Seq/Reference/Genome/Gmax_275_v2.0  $f; done
 
 Excercise
-~~~~~~~~~~~
+----------
 
 1. Run Cufflinks2 on alignment file(SAM)
