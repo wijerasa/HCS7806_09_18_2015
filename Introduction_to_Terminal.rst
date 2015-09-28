@@ -215,7 +215,7 @@ Displaying Content of a File
 Renaming a File
 ~~~~~~~~~~~~~~~
 
-* mv [orginalfile.txt] [newnamefile.txt] *
+*mv [orginalfile.txt] [newnamefile.txt]*
 
 .. code-block:: bash
    
@@ -227,7 +227,7 @@ Renaming a File
 Searching the Contents of a File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* grep [options] [word\_to\_find] [filename] *
+*grep [options] [word\_to\_find] [filename]*
 
 .. code-block:: bash
    
@@ -241,21 +241,26 @@ Searching the Contents of a File
 Concatenating two or more files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\*\* \_ cat [fist\_file.txt] [second\_file.txt] [thrid\_file.txt] .... [N\_file.txt] > [output\_file.txt]\_\*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*cat [fist\_file.txt] [second\_file.txt] [thrid\_file.txt] .... [N\_file.txt] > [output\_file.txt]*
+
+.. code-block:: bash
+   
+   $ cat first.txt second.txt > third.txt
+
 
 
 
 Finally, Compress that File!!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\*\* \_ gzip [filetocompress] \_\*\*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*gzip [filetocompress]*
 
-
+.. code-block:: bash
+   
+   $ gzip sequence.fastq
 
 Excercise
----------
+~~~~~~~~~~
 
-1. Count the number of sequnces in a fastq.gz file > **Hint:** Use zcat
-   and pip ("\|") the output to **grep -c** [word\_to\_grep]
+1. Count the number of sequnces in a fastq.gz file
+.. Note:: Use zcat and pip ("\|") the output to **grep -c** [word\_to\_grep]
