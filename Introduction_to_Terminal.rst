@@ -74,12 +74,14 @@ To find out what is your current working directory, type
    /home/kiriya
 
 
-\*\* *mkdir (makding a directory)* \*\*
+*mkdir (makding a directory)*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To make a subdirectory called *Software* in your home directory, type
 
-*:~$ mkdir Software *
+.. code-block:: bash
+   :lineos:
+   $ mkdir Software
 
 
 
