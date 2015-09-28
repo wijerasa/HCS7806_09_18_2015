@@ -156,39 +156,33 @@ To get help,
 *Explanation*
 
 
-.. code:: bash
+.. code-block:: bash
 
-    for f in ~/RNA-Seq/RAW_Data/*.fastq.gz;
+    $ for f in ~/RNA-Seq/RAW_Data/*.fastq.gz;
 
-.. raw:: html
 
-   <p>
+.. Note:: This will pick any file that has file extension .fastq.gz in the */home/yourusername/RNA-Seq/RAW_Data* directory. 
 
-This will pick any file that has file extension .fastq.gz in the
-/home/yourusername/RNA-Seq/RAW\_Data directory. Then,
+Then,
 
-.. code:: bash
+.. code-block:: bash
 
-    do fastqc --outdir  ~/RNA-Seq/QC/Fastqc_Out -t 4 $f 
+    $ do fastqc --outdir  ~/RNA-Seq/QC/Fastqc_Out -t 4 $f 
 
-.. raw:: html
 
-   <p>
 
-will execute fastqc on each file in the
-/home/yourusername/RNA-Seq/RAW\_Data until there is no more .fastq.gz
-files left in that directory.
+will execute fastqc on each file in the /home/yourusername/RNA-Seq/RAW\_Data until there is no more .fastq.gz files left in that directory.
 
-.. code:: python
+.. code-block:: bash
 
-    cd ~/ #Go back to home directory
+    $ cd ~/ #Go back to home directory
 
-*Adapter Trimming with scythe *
+*Adapter Trimming with scythe*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code:: python
+.. code-block:: bash
 
-    scythe --help
+    $ scythe --help
 
 
 .. parsed-literal::
@@ -221,62 +215,53 @@ files left in that directory.
     			range: [0, 62]
 
 
-\*\* *Unzip your data before this step,* \*\*
+*Unzip your data before this step,*
 
-gzip -d Code For few Samples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**gzip -d Code For few Samples**
 
-.. code:: python
 
-    gzip -d RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L002_R1_001-2.fastq.gz
-    gzip -d RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L004_R1_001-2.fastq.gz
+.. code-block:: bash
 
-**NOTE: ** Your outputs will be under \_ RNA-Seq/RAW\_Data/\_
+    $ gzip -d RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L002_R1_001-2.fastq.gz
+    $ gzip -d RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L004_R1_001-2.fastq.gz
 
-gzip -d Code For Many Samples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Note:: Your outputs will be under \_ RNA-Seq/RAW\_Data/\_
 
-**NOTE: ** You have to be in your \* HOME \* directory to issue
-following commands. If not do,
+**gzip -d Code For Many Samples**
 
-.. code:: bash
 
-    cd ~/ 
+.. Note:: You have to be in your \* HOME \* directory to issue following commands. If not do,
+
+.. code-block:: bash
+
+    $ cd ~/ 
 
 to go back to your \* HOME \*.
 
-.. code:: python
+.. code-block:: bash
 
-    for f in RNA-Seq/RAW_Data/*.gz; do gzip -d  $f  ; done
+    $ for f in RNA-Seq/RAW_Data/*.gz; do gzip -d  $f  ; done
 
-Scythe Code For Few Samples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code:: python
-
-    scythe  -a RNA-Seq/Adaptors/TruSeq_adapters.fasta  -M 50 \
-            -o RNA-Seq/QC/Adapter_Removed/Adapt_rem_3290-TM-0001-18_S18_L002_R1_001-2.fastq \
-                                                 RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L002_R1_001-2.fastq
+**Scythe Code For Few Samples**
 
 
+.. code-block:: bash
 
-.. code:: python
+    $ scythe  -a RNA-Seq/Adaptors/TruSeq_adapters.fasta  -M 50 -o RNA-Seq/QC/Adapter_Removed/Adapt_rem_3290-TM-0001-18_S18_L002_R1_001-2.fastq RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L002_R1_001-2.fastq
 
-    scythe  -a RNA-Seq/Adaptors/TruSeq_adapters.fasta  -M 50 -o RNA-Seq/QC/Adapter_Removed/Adapt_rem_3290-TM-0001-18_S18_L004_R1_001-2.fastq \
-                                                 RNA-Seq/RAW_Data//3290-TM-0001-18_S18_L004_R1_001-2.fastq
+    $ scythe  -a RNA-Seq/Adaptors/TruSeq_adapters.fasta  -M 50 -o RNA-Seq/QC/Adapter_Removed/Adapt_rem_3290-TM-0001-18_S18_L004_R1_001-2.fastq  RNA-Seq/RAW_Data//3290-TM-0001-18_S18_L004_R1_001-2.fastq
 
-Scythe Code For Many Samples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Scythe Code For Many Samples**
 
-.. code:: python
 
-    for f in RNA-Seq/RAW_Data/*.fastq; do scythe -a RNA-Seq/Adaptors/TruSeq_adapters.fasta \ 
-    -o RNA-Seq/QC/Adapter_Removed/Adapt_rem_${f##*/}   $f  ; done
+.. code-block:: bash
+
+    $ for f in RNA-Seq/RAW_Data/*.fastq; do scythe -a RNA-Seq/Adaptors/TruSeq_adapters.fasta -o RNA-Seq/QC/Adapter_Removed/Adapt_rem_${f##*/}   $f  ; done
 
 *Quality Trimming with sickle *
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code:: python
+.. code-block:: bash
 
     sickle se --help
 
@@ -301,64 +286,59 @@ Scythe Code For Many Samples
     
 
 
-.. code:: python
+.. code-block:: bash
 
-    sickle se -q 20  -t sanger -f RNA-Seq/QC/Adapter_Removed/Adapt_rem_3290-TM-0001-18_S18_L002_R1_001-2.fastq  \
+    $ sickle se -q 20  -t sanger -f RNA-Seq/QC/Adapter_Removed/Adapt_rem_3290-TM-0001-18_S18_L002_R1_001-2.fastq  \
                                  -o RNA-Seq/QC/Trimmed/Q_trimmed_3290-TM-0001-18_S18_L002_R1_001-2.fastq
 
 
 
-Sickle Code For Many Samples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Sickle Code For Many Samples**
 
-.. code:: python
+.. code-block:: bash
 
-    for f in RNA-Seq/QC/Adapter_Removed/*.fastq; sickle se -q 20  -t sanger  -f $f   \
-    -o RNA-Seq/QC/Trimmed/Q_trimmed_${f##*/} ; done
+    $ for f in RNA-Seq/QC/Adapter_Removed/*.fastq; sickle se -q 20  -t sanger  -f $f -o RNA-Seq/QC/Trimmed/Q_trimmed_${f##*/} ; done
 
 *Short read aligning with Tophat2 *
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Make bowtie2 indexes for your Genome
 
-.. code:: python
+.. code-block:: bash
 
-    cd RNA-Seq/Reference/Genome/
+    $ cd RNA-Seq/Reference/Genome/
 
-.. code:: python
+.. code-block:: bash
 
-    gzip -d Gmax_275_v2.0.gz
+    $ gzip -d Gmax_275_v2.0.gz
 
-.. code:: python
+.. code-block:: bash
 
-    mv Gmax_275_v2.0 Gmax_275_v2.0.fa
+    $ mv Gmax_275_v2.0 Gmax_275_v2.0.fa
 
-.. code:: python
+.. code-block:: bash
 
-    bowtie2-build Gmax_275_v2.0.fa Gmax_275_v2.0
+    $ bowtie2-build Gmax_275_v2.0.fa Gmax_275_v2.0
 
 
-    WARNING: THIS WILL TAKE LONG TIME
+.. WARNING:: THIS WILL TAKE LONG TIME
 
 -  Align short reads to Genome using Tophat2
 
-.. code:: python
+.. code-block:: bash
 
-    cd ~/RNA-Seq
+    $ cd ~/RNA-Seq
 
-.. code:: python
+.. code-block:: bash
 
-    tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/Tophat2 RNA-Seq/Reference/Genome/Gmax_275_v2.0 \
-                                    RNA-Seq/QC/Trimmed/Q_trimmed_3290-TM-0001-18_S18_L002_R1_001-2.fastq
+    $tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/Tophat2 RNA-Seq/Reference/Genome/Gmax_275_v2.0 RNA-Seq/QC/Trimmed/Q_trimmed_3290-TM-0001-18_S18_L002_R1_001-2.fastq
 
-Tophat2 Code For Many Samples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Tophat2 Code For Many Samples**
 
-.. code:: python
 
-    for f in RNA-Seq/QC/Trimmed/*.fastq;
-    do tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/${f##*/} RNA-Seq/Reference/Genome/Gmax_275_v2.0  $f; 
-    done
+.. code-block:: bash
+
+    $for f in RNA-Seq/QC/Trimmed/*.fastq; do tmp_file="${f##*/}", tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/${tmp_file%.fastq*} RNA-Seq/Reference/Genome/Gmax_275_v2.0  $f; done
 
 Excercise
 =========
