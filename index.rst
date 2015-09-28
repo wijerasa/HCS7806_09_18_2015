@@ -4,7 +4,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. module:: mcbl
+.. module:: HCS7806
    :synopsis: Documentation of MCBL
 .. moduleauthor:: Saranga Wijeratne<wijeratne.3@osu.edu>
 
@@ -17,7 +17,7 @@
 Process of Analyzing  eQTL Data
 ===============================
 
-#### *So far*,
+*So far*,
 
 1. *Overview of Next Generation Sequencing*
 2. *Setting an iPlant account*
@@ -27,7 +27,7 @@ Process of Analyzing  eQTL Data
 6. *Mapping of reads to the genome* 
 7.  *Assembling transcripts and estimating their abundances*
 
-#### *Today*,
+*Today*,
 
 1. *Introduction to iPlant Atmosphere*
 2. *Introduction to Terminal*
@@ -36,8 +36,8 @@ Process of Analyzing  eQTL Data
 
 Contents:
 
--  `**iPlant Atmosphere:
-   Introduction** <https://pods.iplantcollaborative.org/wiki/display/atmman/About+Atmosphere>`__
+-  `iPlant Atmosphere:
+   Introduction<https://pods.iplantcollaborative.org/wiki/display/atmman/About+Atmosphere>`__
    Introduction to iPlant Atmosphere, this includes:
 -  `What is iPlant Atmosphere
    ? <https://pods.iplantcollaborative.org/wiki/display/atmman/About+Atmosphere#AboutAtmosphere-OLDUICONTENT>`__
@@ -61,7 +61,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 3
-   :caption: User Documentation
+   :caption: Class Notes
 
    Introduction_to_Terminal
    RNA-Seq

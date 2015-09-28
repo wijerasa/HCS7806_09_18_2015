@@ -18,29 +18,27 @@ Linux System Structure
 
 Linux system has three main components:
 
--  **Kernel** > It controls system hardware including memory,
+:Kernel: It controls system hardware including memory,
    processors, disks, and I/ O (Input/ Output) devices. It schedules
    processes, enforces security, manages user access, and so on. The
    kernel receives instructions from the shell, engages appropriate
    hardware resources, and acts as instructed.
 
--  **Shell** **(This the important part for our class)** > The shell is
+:Shell: **(This the important part for our class)** The shell is
    a program that accepts and interprets text-mode commands. The user
    provides instructions (commands) to the shell, which are interpreted
    and passed to the kernel for processing.
 
--  **Hierarchical directory structure** > Linux uses the conventional
+:Hierarchical directory structure: Linux uses the conventional
    hierarchical directory structure where directories may contain both
    files and sub-directories. Sub-directories may further hold more
    files and sub-directories. A subdirectory, also referred to as a
    child directory, is a directory located under a parent directory. >
 
-   .. raw:: html
+   .. image:: images/LSS.png
 
-      <p>
-
-   */home/ username/dir1/ subdir1* > \* / -root (parent of *home*) > \*
-   home - sub-directory or child of / (*root*)
+   - /home/ username/dir1/ subdir1   -root (parent of *home*) 
+   - home - sub-directory or child of / (*root*)
 
 
 
@@ -62,7 +60,7 @@ Starting a Shell
 Terminal Commands
 -----------------
 
-\*\* *pwd (Print Working Directory)* \*\*
+*pwd (Print Working Directory)*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you first login, you are logged into your home directory
@@ -70,7 +68,8 @@ When you first login, you are logged into your home directory
 
 To find out what is your current working directory, type
 
-*:~$ pwd*
+.. code-block:: bash
+   :linenos:pwd
 
 
 
