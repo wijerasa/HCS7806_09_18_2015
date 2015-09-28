@@ -102,6 +102,7 @@ To see what is inside the home directory, type
 To change the current directory to the "Software", type
 
 .. code-block:: bash
+
    $ cd Software 
 
 
