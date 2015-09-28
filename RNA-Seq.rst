@@ -225,7 +225,7 @@ Then,
     $ gzip -d RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L002_R1_001-2.fastq.gz
     $ gzip -d RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L004_R1_001-2.fastq.gz
 
-.. Note:: Your outputs will be under \_ RNA-Seq/RAW\_Data/\_
+.. Note:: Your outputs will be under _ RNA-Seq/RAW\_Data/
 
 **gzip -d Code For Many Samples**
 
@@ -298,6 +298,10 @@ to go back to your \* HOME \*.
 .. code-block:: bash
 
     $ for f in RNA-Seq/QC/Adapter_Removed/*.fastq; sickle se -q 20  -t sanger  -f $f -o RNA-Seq/QC/Trimmed/Q_trimmed_${f##*/} ; done
+
+
+Short-reads Alignment with Tophat2
+-----------------------------------
 
 *Short read aligning with Tophat2*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
