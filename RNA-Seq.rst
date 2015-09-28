@@ -300,8 +300,10 @@ to go back to your \* HOME \*.
     $ for f in RNA-Seq/QC/Adapter_Removed/*.fastq; sickle se -q 20  -t sanger  -f $f -o RNA-Seq/QC/Trimmed/Q_trimmed_${f##*/} ; done
 
 
+
 Short-reads Alignment with Tophat2
 -----------------------------------
+
 
 *Short read aligning with Tophat2*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
