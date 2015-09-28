@@ -21,8 +21,11 @@ Software we need
 
 -  `Tophat2 <https://ccb.jhu.edu/software/tophat/index.shtml>`_
 
+Ways ti Install Software
+-------------------------
+
 1. Install Software From Your Distribution’s Repositories
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *First Search:*
 
@@ -48,87 +51,116 @@ Software we need
 *Then Install:*
 
 
-.. code:: python
+.. code-block:: bash
 
-    sudo apt-get install fastqc
+    $ sudo apt-get install fastqc
 
 2. Downloading and Unpacking a Binary Archive
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To download tophat2
 `binaries <https://ccb.jhu.edu/software/tophat/index.shtml>`__, from
 your home directory type
 
-.. code:: python
+.. code-block:: bash
 
-    cd Software
+    $ cd Software
 
 Then,
 
-.. code:: python
+.. code-block:: bash
 
-    wget https://ccb.jhu.edu/software/tophat/downloads/tophat-2.1.0.Linux_x86_64.tar.gz
+    $ wget https://ccb.jhu.edu/software/tophat/downloads/tophat-2.1.0.Linux_x86_64.tar.gz
 
-.. code:: python
+.. code-block:: bash
 
-    tar -xvf tophat-2.1.0.Linux_x86_64.tar.gz
+    $ tar -xvf tophat-2.1.0.Linux_x86_64.tar.gz
 
-.. code:: python
+.. code-block:: bash
 
-    cd tophat-2.1.0.Linux_x86_64/ && ls -ls
+    $ cd tophat-2.1.0.Linux_x86_64/ && ls -ls
 
 To execute tophat2,
 
-.. code:: python
+.. code-block:: bash
 
-    ./tophat2
+    $ ./tophat2
 
 3. Compileing From Source
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Go back to *Software* directory by typing,
 
-.. code:: python
+.. code-block:: bash
 
-    cd ../
+    $ cd ../
 
 Download sickle and and scythe
 
-.. code:: python
+.. code-block:: bash
 
-    wget https://github.com/najoshi/sickle/archive/master.zip
+    $ wget https://github.com/najoshi/sickle/archive/master.zip
 
-Unzip master file
+or to download github repo,
 
-.. code:: python
+.. code-block:: bash
 
-    unzip master.zip 
+    $ git clone https://github.com/najoshi/sickle.git
+
+Unzip master file if you use *wget* method 
+
+.. code-block:: bash
+
+    $ unzip master.zip
+
 
 Remove master.zip from your directory
 
-.. code:: python
+.. code-block:: bash
 
-    rm master.zip
+    $ rm master.zip
 
-Download *scythe* and unzip as above
+.. Note:: If you clone the github repo you can skip above steps
 
-.. code:: python
+Clone *scythe* using "git clone" command 
 
-    wget https://github.com/najoshi/scythe/archive/master.zip
+.. code:: bash
+
+    $ git clone https://github.com/najoshi/scythe.git
+
 
 *Compile sickle and scythe*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code:: python
 
-    cd sickel-master
+.. code-block:: bash
 
-.. code:: python
+    $ cd sickel-master
 
-    make 
+.. code-block:: bash
 
-.. code:: python
+    $ make 
 
-    ls -ls 
+.. code-block:: bash
 
-Do the same for the scythe
+    $ ls -ls 
+
+Do the same for the scythe,
+
+.. code-block:: bash
+
+    $ cd scythe
+
+.. code-block:: bash
+
+    $ make all 
+
+.. code-block:: bash
+
+    $ ls -ls 
+
+Now, add both binaries to *PATH* so you can access them anywhere,
+
+.. code-block:: bash
+
+    $ sudo ln -s /home/yourusername/RNA-Seq/Software/sickel-master/sickle /usr/local/bin
+    $ sudo ln -s /home/yourusername/RNA-Seq/Software/scythe//scythe /usr/local/bin
