@@ -80,8 +80,7 @@ To find out what is your current working directory, type
 To make a subdirectory called *Software* in your home directory, type
 
 .. code-block:: bash
-   :lineos:
-   
+
    $ mkdir Software
 
 
