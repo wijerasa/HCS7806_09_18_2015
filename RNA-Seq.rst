@@ -304,6 +304,8 @@ to go back to your \* HOME \*.
 Short-reads Alignment with Tophat2
 -----------------------------------
 
+Indexing your Genome
+~~~~~~~~~~~~~~~~~~
 
 -  Make bowtie2 indexes for your Genome
 
@@ -325,6 +327,11 @@ Short-reads Alignment with Tophat2
 
 
 .. WARNING:: THIS WILL TAKE LONG TIME
+
+
+Aligning Short Reads
+~~~~~~~~~~~~~~~~~~~~~~~
+
 
 -  Align short reads to Genome using Tophat2
 
