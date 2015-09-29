@@ -230,7 +230,7 @@ Then,
 **gzip -d Code For Many Samples**
 
 
-.. Note:: You have to be in your \* HOME \* directory to issue following commands. If not do,
+.. Note:: You have to be in your *HOME* directory to issue following commands. If are not in your *HOME* do,
 
 .. code-block:: bash
 
