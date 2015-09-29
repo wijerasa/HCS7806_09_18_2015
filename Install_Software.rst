@@ -57,17 +57,7 @@ Ways to Install Software
 
     $ sudo apt-get install fastqc
 
-If you see *Unable to locate package* massage,
-
-
-.. code-block:: bash
-  
-   $ cd  ~/RNA-Seq/Software/FastQC  (Assuming your files inside RNA-Seq/SoftwareFastQC)
-
-   $ chmod a+x ./fastqc (make fastqc executable)
-
-   $ sudo ln -s  ~/RNA-Seq/Software/FastQC/fastqc  /usr/local/bin/fastqc (make a link to /usr/local/bin)
-
+If you see *Unable to locate package* massage, go to :ref:`Compileing From Source <compiling_s>` and read do that section first. Then, install :ref:`fastqc <fastqc_I>`
 
 
 .. _downloading_b:
@@ -183,3 +173,17 @@ Now, add both binaries to *PATH*, so you can access them anywhere,
 
     $ sudo ln -s /home/yourusername/RNA-Seq/Software/sickel-master/sickle /usr/local/bin
     $ sudo ln -s /home/yourusername/RNA-Seq/Software/scythe//scythe /usr/local/bin
+
+.. _fastqc_I:
+
+.. code-block:: bash
+
+   $ wget http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.3.zip
+
+   $ unzip fastqc_v0.11.3.zip
+  
+   $ cd  ~/RNA-Seq/Software/FastQC  (Assuming your files inside RNA-Seq/SoftwareFastQC)
+
+   $ chmod a+x ./fastqc (make fastqc executable)
+
+   $ sudo ln -s  ~/RNA-Seq/Software/FastQC/fastqc  /usr/local/bin/fastqc (make a link to /usr/local/bin)
