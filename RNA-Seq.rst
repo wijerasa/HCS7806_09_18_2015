@@ -236,7 +236,7 @@ Then,
 
     $ cd ~/ 
 
-to go back to your \* HOME \*.
+to go back to your *HOME*.
 
 .. code-block:: bash
 
