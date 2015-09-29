@@ -225,7 +225,7 @@ Then,
     $ gzip -d RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L002_R1_001-2.fastq.gz
     $ gzip -d RNA-Seq/RAW_Data/3290-TM-0001-18_S18_L004_R1_001-2.fastq.gz
 
-.. Note:: Your outputs will be under _ RNA-Seq/RAW\_Data/
+.. Note:: Your outputs will be under RNA-Seq/RAW\_Data/
 
 **gzip -d Code For Many Samples**
 
@@ -304,9 +304,6 @@ to go back to your \* HOME \*.
 Short-reads Alignment with Tophat2
 -----------------------------------
 
-
-*Short read aligning with Tophat2*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Make bowtie2 indexes for your Genome
 
