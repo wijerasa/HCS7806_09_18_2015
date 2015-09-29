@@ -288,8 +288,7 @@ to go back to your *HOME*.
 
 .. code-block:: bash
 
-    $ sickle se -q 20  -t sanger -f RNA-Seq/QC/Adapter_Removed/Adapt_rem_3290-TM-0001-18_S18_L002_R1_001-2.fastq  \
-                                 -o RNA-Seq/QC/Trimmed/Q_trimmed_3290-TM-0001-18_S18_L002_R1_001-2.fastq
+    $ sickle se -q 20  -t sanger -f RNA-Seq/QC/Adapter_Removed/Adapt_rem_3290-TM-0001-18_S18_L002_R1_001-2.fastq  -o RNA-Seq/QC/Trimmed/Q_trimmed_3290-TM-0001-18_S18_L002_R1_001-2.fastq
 
 
 
