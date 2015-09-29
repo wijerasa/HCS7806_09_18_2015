@@ -307,7 +307,7 @@ Short-reads Alignment with Tophat2
 Indexing your Genome
 ~~~~~~~~~~~~~~~~~~
 
--  To make bowtie2 indexes for your Genome,
+To make bowtie2 indexes for your Genome,
 
 .. code-block:: bash
 
@@ -333,7 +333,7 @@ Aligning Short Reads
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 
--  To align short reads to Genome using Tophat2,
+To align short reads to Genome using Tophat2,
 
 .. code-block:: bash
 
