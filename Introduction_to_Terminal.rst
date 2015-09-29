@@ -7,7 +7,7 @@ Overview of Linux
 .. highlight:: rest
 
 Linux is a free OS and very similiar to the UNIX OS in terms of
-concepts, features.
+concepts and features.
 
 `Linux Distributions <https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions>`_
 
