@@ -57,7 +57,7 @@ Ways to Install Software
 
     $ sudo apt-get install fastqc
 
-If you see *Unable to locate package* massage, go to :ref:`Compileing From Source <compiling_s>` and read do that section first. Then, install :ref:`fastqc <fastqc_I>`
+If you see *Unable to locate package* massage, go to :ref:`Compileing From Source <compiling_s>` and read that section first. Then, install :ref:`fastqc <fastqc_I>`
 
 
 .. _downloading_b:
@@ -175,6 +175,9 @@ Now, add both binaries to *PATH*, so you can access them anywhere,
     $ sudo ln -s /home/yourusername/RNA-Seq/Software/scythe//scythe /usr/local/bin
 
 .. _fastqc_I:
+
+Install fastqc from source
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
