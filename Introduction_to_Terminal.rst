@@ -53,7 +53,7 @@ Starting a Shell
 
 
 
-\*\* [] prompt, waiting for you to start entering commands.\*\*
+*[] prompt, waiting for you to start entering commands.*
 
 --------------
 
