@@ -347,7 +347,7 @@ To align short reads to Genome using Tophat2,
 
 .. code-block:: bash
 
-    $for f in RNA-Seq/QC/Trimmed/*.fastq; do  tophat2 --num-threads 4  --output-dir ${f%%.*} RNA-Seq/Reference/Genome/Gmax_275_v2.0  $f; done
+    $for f in RNA-Seq/QC/Trimmed/*.fastq; do  tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/${f##*/} RNA-Seq/Reference/Genome/Gmax_275_v2.0  $f; done
 
 Excercise
 ----------
