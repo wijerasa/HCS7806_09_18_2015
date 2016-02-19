@@ -296,7 +296,7 @@ to go back to your *HOME*.
 
 .. code-block:: bash
 
-    $ for f in RNA-Seq/QC/Adapter_Removed/*.fastq; sickle se -q 20  -t sanger  -f $f -o RNA-Seq/QC/Trimmed/Q_trimmed_${f##*/} ; done
+    $ for f in RNA-Seq/QC/Adapter_Removed/*.fastq; do sickle se -q 20  -t sanger  -f $f -o RNA-Seq/QC/Trimmed/Q_trimmed_${f##*/} ; done
 
 
 
@@ -347,7 +347,7 @@ To align short reads to Genome using Tophat2,
 
 .. code-block:: bash
 
-    $for f in RNA-Seq/QC/Trimmed/*.fastq; do tmp_file="${f##*/}", tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/${tmp_file%.fastq*} RNA-Seq/Reference/Genome/Gmax_275_v2.0  $f; done
+    $for f in RNA-Seq/QC/Trimmed/*.fastq; do  tophat2 --num-threads 4  --output-dir RNA-Seq/Alignment/${f##*/} RNA-Seq/Reference/Genome/Gmax_275_v2.0  $f; done
 
 Excercise
 ----------
