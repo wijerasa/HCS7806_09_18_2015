@@ -14,6 +14,7 @@ Move Local Files to Remote server
 
 Exercise:
 ~~~~~~~~~
+**
 
 1. Copy any .fastq.gz files from you local machine to
    /home/yourusername/RNA-Seq/RAW\_Data
